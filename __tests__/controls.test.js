@@ -1,5 +1,5 @@
 
-const { home, hello } = require('../controllers/controls.js')
+const { home } = require('../controllers/controls.js')
 
 describe('Test controls.js', () => {
   test('responds to /', () => {
