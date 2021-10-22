@@ -5,7 +5,7 @@ const home = (req, res) => {
 
 const hello = (req, res) => {
   const name = req.params.name
-  res.send(`Hello ${name}!`)
+  res.send(`Hello, ${name}!`)
 }
 
 module.exports = {
